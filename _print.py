@@ -3,6 +3,7 @@ from calculation import calculation
 from check_even_or_odd import check_even_or_odd
 from check_palindrome import is_palindrome
 from check_prime import is_prime
+from check_vowels import separate_vowels, vowels_count
 from genarate_fibonacci import genarate_fibonacci
 from reverse import reverse_full_text, reverse_number, reverse_per_word
 
@@ -22,4 +23,7 @@ sentence = "I am learning Python"
 
 # print("Is Palindrome :", is_palindrome("malayalam"))
 
-print("Fibonacci Series :", genarate_fibonacci(10))
+# print("Fibonacci Series :", genarate_fibonacci(10))
+
+print("Vowels Count :", vowels_count(word))
+print("Vowels Count :", separate_vowels(word))
