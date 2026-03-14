@@ -5,7 +5,7 @@ from check_palindrome import is_palindrome
 from check_prime import is_prime
 from check_vowels import separate_vowels, vowels_count
 from genarate_fibonacci import genarate_fibonacci
-from remove_duplicates import only_duplicates, remove_duplicates
+from duplicates import only_duplicates, remove_duplicates
 from reverse import reverse_full_text, reverse_number, reverse_per_word
 
 number = 5
