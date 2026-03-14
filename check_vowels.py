@@ -7,5 +7,4 @@ def vowels_count(text):
     return count
 
 def separate_vowels(text):
-    text.lower()
-    return [char for char in text if char in ['a', 'e', 'i', 'o', 'u']]
+    return [char for char in text.lower() if char in ['a', 'e', 'i', 'o', 'u']]

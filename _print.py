@@ -5,10 +5,11 @@ from check_palindrome import is_palindrome
 from check_prime import is_prime
 from check_vowels import separate_vowels, vowels_count
 from genarate_fibonacci import genarate_fibonacci
+from remove_duplicates import only_duplicates, remove_duplicates
 from reverse import reverse_full_text, reverse_number, reverse_per_word
 
 number = 5
-nums = [1, 2, 3, 4, 5]
+nums = [1, 2, 3, 4, 5, 4]
 word = "Programming"
 sentence = "I am learning Python"
 
@@ -25,5 +26,7 @@ sentence = "I am learning Python"
 
 # print("Fibonacci Series :", genarate_fibonacci(10))
 
-print("Vowels Count :", vowels_count(word))
-print("Vowels Count :", separate_vowels(word))
+# print("Vowels Count :", vowels_count(word))
+# print("Vowels Count :", separate_vowels(word))
+
+print("Remove Duplicates :", only_duplicates(nums))
