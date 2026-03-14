@@ -3,6 +3,7 @@ from calculation import calculation
 from check_even_or_odd import check_even_or_odd
 from check_palindrome import is_palindrome
 from check_prime import is_prime
+from genarate_fibonacci import genarate_fibonacci
 from reverse import reverse_full_text, reverse_number, reverse_per_word
 
 number = 5
@@ -19,4 +20,6 @@ sentence = "I am learning Python"
 
 # print("Factorial of", number, ":", calculate_factorial(number))
 
-print("Is Palindrome :", is_palindrome("malayalam"))
+# print("Is Palindrome :", is_palindrome("malayalam"))
+
+print("Fibonacci Series :", genarate_fibonacci(10))
