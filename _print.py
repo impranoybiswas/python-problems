@@ -1,11 +1,12 @@
 from calculate_factorial import calculate_factorial
 from calculation import calculation
 from check_even_or_odd import check_even_or_odd
+from check_occurrence import count_occurrences
 from check_palindrome import is_palindrome
 from check_prime import is_prime
 from check_vowels import separate_vowels, vowels_count
 from genarate_fibonacci import genarate_fibonacci
-from duplicates import only_duplicates, remove_duplicates
+from check_duplicates import only_duplicates, remove_duplicates
 from reverse import reverse_full_text, reverse_number, reverse_per_word
 
 number = 5
@@ -29,4 +30,8 @@ sentence = "I am learning Python"
 # print("Vowels Count :", vowels_count(word))
 # print("Vowels Count :", separate_vowels(word))
 
-print("Remove Duplicates :", only_duplicates(nums))
+# print("Remove Duplicates :", only_duplicates(nums))
+# print("Remove Duplicates :", remove_duplicates(nums))
+
+print("Occurrence Count :", count_occurrences(nums, 4))
+
