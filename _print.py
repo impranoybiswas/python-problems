@@ -6,6 +6,7 @@ from check_occurrence import count_occurrences
 from check_palindrome import is_palindrome
 from check_prime import is_prime
 from check_vowels import separate_vowels, vowels_count
+from find_long_word import find_long_word
 from finding_sum import finding_sum
 from genarate_fibonacci import genarate_fibonacci
 from check_duplicates import only_duplicates, remove_duplicates
@@ -39,4 +40,6 @@ sentence = "I am learning Python"
 
 # print("Is Armstrong Number :", check_armstrong(153)) 
 
-print("Finding Sum :", finding_sum(nums, 9))
+# print("Finding Sum :", finding_sum(nums, 9))
+
+print("Finding Longest Word :", find_long_word(sentence))
