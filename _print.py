@@ -1,5 +1,6 @@
 from calculate_factorial import calculate_factorial
 from calculation import calculation
+from check_anagram import is_anagram
 from check_armstrong import check_armstrong
 from check_even_or_odd import check_even_or_odd
 from check_occurrence import count_occurrences
@@ -45,4 +46,6 @@ sentence = "I am learning Python"
 
 # print("Finding Longest Word :", find_long_word(sentence))
 
-print("Chunk Array :", chunk_array(nums, 2))
+# print("Chunk Array :", chunk_array(nums, 2))
+
+print("Is Anagram :" , is_anagram("listen", "silent"))
