@@ -1,5 +1,6 @@
 from calculate_factorial import calculate_factorial
 from calculation import calculation
+from check_armstrong import check_armstrong
 from check_even_or_odd import check_even_or_odd
 from check_occurrence import count_occurrences
 from check_palindrome import is_palindrome
@@ -33,5 +34,6 @@ sentence = "I am learning Python"
 # print("Remove Duplicates :", only_duplicates(nums))
 # print("Remove Duplicates :", remove_duplicates(nums))
 
-print("Occurrence Count :", count_occurrences(nums, 4))
+# print("Occurrence Count :", count_occurrences(nums, 4))
 
+print("Is Armstrong Number :", check_armstrong(153)) 
