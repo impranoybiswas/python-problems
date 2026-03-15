@@ -6,6 +6,7 @@ from check_occurrence import count_occurrences
 from check_palindrome import is_palindrome
 from check_prime import is_prime
 from check_vowels import separate_vowels, vowels_count
+from chunk_array import chunk_array
 from find_long_word import find_long_word
 from finding_sum import finding_sum
 from genarate_fibonacci import genarate_fibonacci
@@ -42,4 +43,6 @@ sentence = "I am learning Python"
 
 # print("Finding Sum :", finding_sum(nums, 9))
 
-print("Finding Longest Word :", find_long_word(sentence))
+# print("Finding Longest Word :", find_long_word(sentence))
+
+print("Chunk Array :", chunk_array(nums, 2))
