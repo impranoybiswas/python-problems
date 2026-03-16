@@ -1,5 +1,6 @@
 from calculate_factorial import calculate_factorial
 from calculation import calculation
+from char_frequency import char_frequency
 from check_anagram import is_anagram
 from check_armstrong import check_armstrong
 from check_even_or_odd import check_even_or_odd
@@ -48,4 +49,6 @@ sentence = "I am learning Python"
 
 # print("Chunk Array :", chunk_array(nums, 2))
 
-print("Is Anagram :" , is_anagram("listen", "silent"))
+# print("Is Anagram :" , is_anagram("listen", "silent"))
+
+print("Cheracter Frequency :", char_frequency(sentence))
